@@ -8,3 +8,6 @@ posts = response.json()
 
 print(f"Кол-во записей = {len(posts)}")
 print(f"Первая запись - {posts[0]}")
+
+for post in posts:
+  new_dic
